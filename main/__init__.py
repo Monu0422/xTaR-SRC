@@ -27,7 +27,7 @@ FORCESUB = config("FORCESUB", default=None)
 AUTH = config("AUTH", default=None)
 MONGODB = config("MONGODB", default=MDB)
 OWN = 7270470326 # edit this
-GROUP = -1002180722019 # edit this
+GROUP = -1002182880706 # edit this
 OWNER_ID = int(config("OWNER_ID", default=OWN))
 LOG_GROUP = int(config("LOG_GROUP", default=GROUP))
 
