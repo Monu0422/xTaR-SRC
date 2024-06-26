@@ -46,7 +46,7 @@ async def clone(event):
     li = lit.split("\n")
 
     if len(li) > 00:
-        await event.respond("max 10 links per message")
+        await event.respond("if Tou Find any error contact admin - @The_real_xTaR")
         return
 
     for li in li:
