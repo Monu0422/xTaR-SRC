@@ -57,10 +57,10 @@ async def clone(event):
         except TypeError:
             return
 
-        #s, r = await force_sub(event.client, fs, event.sender_id, ft)
-        #if s is True:
-            #await event.respond(r)
-            #return
+        s, r = await force_sub(event.client, fs, event.sender_id, ft)
+        if s is True:
+            await event.respond(r)
+            return
 
         if f'{int(event.sender_id)}' in user:
             return await event.respond("Please don't spam links, wait until ongoing process is done.")
