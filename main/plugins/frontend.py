@@ -45,7 +45,7 @@ async def clone(event):
     lit = event.text
     li = lit.split("\n")
 
-    if len(li) > 00:
+    if len(li) > 10:
         await event.respond("if Tou Find any error contact admin - @The_real_xTaR")
         return
 
